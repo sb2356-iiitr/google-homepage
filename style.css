@@ -113,10 +113,13 @@ nav button:hover {
 }
 
 .s-btn {
+    display: inline-block;
+    font-size: 14px;
     padding: 9px 15px;
     margin-right: 10px;
     margin-top: 28px;
     border: none;
+    outline: none;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -147,5 +150,35 @@ footer {
 }
 
 footer h4 {
-    color: rgb(0, 0, 0, 0.87);
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 15px;
+    line-height: 39.5px;
+    font-weight: 400;
+    padding-left: 29px;
+    border: 1px solid #eee;
+}
+
+footer a {
+    color: #5f6368;
+    display: inline-block;
+    font-size: 14px;
+    padding: 12px 11.5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    border-top: 1px solid #ddd;
+    display: flex;
+}
+
+.link-1 {
+    padding-left: 18.7px;
+    flex: 1;
+}
+
+.link-2 {
+    padding-right: 18.7px;
 }
